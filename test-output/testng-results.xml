@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+    <line>
+      <![CDATA[a method printing]]>
+    </line>
+    <line>
+      <![CDATA[b method printing]]>
+    </line>
+    <line>
+      <![CDATA[c method printing]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="176" started-at="2020-06-12T22:44:41Z" finished-at="2020-06-12T22:44:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="176" started-at="2020-06-12T22:44:41Z" finished-at="2020-06-12T22:44:41Z">
+      <class name="com.test.Jenkins.TestJnekins">
+        <test-method status="PASS" signature="a()[pri:0, instance:com.test.Jenkins.TestJnekins@f6c48ac]" name="a" duration-ms="22" started-at="2020-06-12T18:44:41Z" finished-at="2020-06-12T18:44:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[a method printing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b()[pri:0, instance:com.test.Jenkins.TestJnekins@f6c48ac]" name="b" duration-ms="14" started-at="2020-06-12T18:44:41Z" finished-at="2020-06-12T18:44:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[b method printing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="c()[pri:0, instance:com.test.Jenkins.TestJnekins@f6c48ac]" name="c" duration-ms="1" started-at="2020-06-12T18:44:41Z" finished-at="2020-06-12T18:44:41Z">
+          <reporter-output>
+            <line>
+              <![CDATA[c method printing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- c -->
+      </class> <!-- com.test.Jenkins.TestJnekins -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
